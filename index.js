@@ -14,3 +14,12 @@ for(const num of marks){
     }
 }
 console.log(largest)
+
+const numbers =[55,56,3,24,8,9,15,44]
+let sum =0;
+for(let i=0;i<numbers.length; i++){
+    if(numbers[i]%2==0){
+        sum+=numbers[i]
+    }
+}
+console.log(`sum: ${sum}`)
