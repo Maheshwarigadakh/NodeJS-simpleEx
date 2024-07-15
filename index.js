@@ -23,3 +23,12 @@ for(let i=0;i<numbers.length; i++){
     }
 }
 console.log(`sum: ${sum}`)
+
+const num =[55,56,3,24,8,9,15,44]
+let sum1 =0;
+for(let i=0;i<num.length; i++){
+    if(num[i]%2==1){
+        sum1+=num[i]
+    }
+}
+console.log(`sum: ${sum1}`)
